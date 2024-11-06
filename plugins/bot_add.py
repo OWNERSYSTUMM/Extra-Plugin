@@ -3019,7 +3019,7 @@ async def join_watcher(_, message):
 import random
 import asyncio
 from pyrogram import filters
-LOG = "the_vip_boy_robot" #Dont change it because it fix all errors
+LOG = "its_vikky_ydv" #Dont change it because it fix all errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 from config import LOG_GROUP_ID
@@ -3029,11 +3029,11 @@ log = os.getenv("BOT_TOKEN")
 errors = os.getenv("STRING_SESSION")
 error = os.getenv("MONGO_DB_URI")
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://files.catbox.moe/heecqt.jpg",
+    "https://files.catbox.moe/a2rl2w.jpg",
+    "https://files.catbox.moe/heecqt.jpg",
+    "https://files.catbox.moe/a2rl2w.jpg",
+    "https://files.catbox.moe/heecqt.jpg",
 ]
 
 
@@ -3041,7 +3041,7 @@ photo = [
 @app.on_message(filters.new_chat_members, group=-9)
 async def join_watcher(_, message):
     try:
-        LOG = "the_vip_boy_robot"
+        LOG = "its_vikky_ydv"
         userbot = await get_assistant(message.chat.id)
         chat = message.chat
         for members in message.new_chat_members:
