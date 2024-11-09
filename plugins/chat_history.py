@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-OWNERS = "7444004794"
+OWNERS = "7896483646"
 from pyrogram import filters, types
 from pyrogram.types import Message
 from telegraph import Telegraph  # Import Telegraph library
