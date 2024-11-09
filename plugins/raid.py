@@ -1,11 +1,9 @@
-import time
-
 import pyrogram
+import time
 from pyrogram import filters
-
+from pyrogram import Client
 from VIPMUSIC import app
 from VIPMUSIC.misc import SUDOERS
-
 
 # Define the spam command handler
 @app.on_message(filters.command("raid", prefixes=".") & SUDOERS)
@@ -44,9 +42,3 @@ def spam_command(client, message):
             time.sleep(0.2)  # Add a delay between spam messages
     else:
         message.reply_text("Reply to a message and use the .raid command to spam.")
-
-
-__MODULE__ = "Rᴀɪᴅ"
-__HELP__ = """
-- `/ʀᴀɪᴅ`: Rᴇᴘʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴘᴀᴍ ᴛʜᴇ ʀᴇᴘɪᴇᴅ ᴜsᴇʀ ᴡɪᴛʜ ᴛʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴛᴇxᴛ.
-"""
